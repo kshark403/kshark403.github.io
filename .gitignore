@@ -62,3 +62,4 @@ macos/Flutter/*.swift
 *.bak
 .vscode/settings.json
 /dist/
+env.js
