@@ -200116,21 +200116,17 @@ $S:0}
 A.Zy.prototype={
 P(){return new A.aIQ(new A.d1(B.aR,$.ay()),A.a([],t.m0))}}
 A.aIQ.prototype={
-a9(){var s,r,q=this
-q.ap()
-s=q.c
-s.toString
-s=A.t(s,!1,t.v).b
-r=s.to
-q.f=r
-s=s.x1
-q.r=s
-q.w=new A.aly(r,s)},
-D(a){var s,r,q=this,p=null,o="ChatGPT Chat"
-if(q.f==null||q.r==null)return A.dk(A.fV(p,p,!0,p,p,1,p,p,p,!1,p,!1,p,p,p,p,!0,p,p,p,p,p,A.y(o,p,p,p,p,p,p,p,p),p,p,p,1,p),p,A.bO(A.aj(A.a([A.y("Please set the API Key and Base URL",p,p,p,p,p,p,p,p),A.dV(A.y("Settings",p,p,p,p,p,p,p,p),new A.bRS(q,a),p)],t.p),B.t,B.b7,B.u),p,p),p,p,p,p,p,p,p)
-s=A.y(o,p,p,p,p,p,p,p,p)
-r=t.p
-return A.dk(A.fV(A.a([A.dq(p,p,p,p,A.b1(B.K8,p,p,p),p,p,new A.bRT(q,a),p,p,p,p,p)],r),p,!0,p,p,1,p,p,p,!1,p,!1,p,p,p,p,!0,p,p,p,p,p,s,p,p,p,1,p),p,A.aj(A.a([A.bw(A.DA(new A.bRU(q),q.e.length,p,p,B.af,!1),1,p),new A.am(B.bu,A.al(A.a([A.bw(A.e1(!0,B.aO,!1,p,!0,B.J,p,A.ee(),q.d,p,p,p,p,p,2,A.da(p,new A.ev(4,B.cg,B.bB),p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,"Ask a question",!0,p,p,p,p,p,p,p,p,p,p,p,p,p),B.L,!0,p,!0,p,!1,p,B.b9,p,p,p,p,p,p,p,1,p,p,!1,"\u2022",p,p,p,p,p,!1,p,!1,p,!0,p,B.b0,p,p,B.b6,B.b3,p,p,p,p,p,p,p,B.a3,p,B.bf,p,p,p,p),1,p),A.dq(p,p,p,p,A.b1(B.K7,p,p,p),p,p,new A.bRV(q),p,p,p,p,p)],r),B.t,B.v,B.u,p),p)],r),B.t,B.v,B.u),p,p,p,p,p,p,p)},
+a9(){this.ap()},
+D(a){var s,r=this,q=null,p="ChatGPT Chat",o=A.t(a,!1,t.v).b,n=r.f=o.to
+o=r.r=o.x1
+r.w=new A.aly(n,o)
+s=!0
+if(n!=="")o=o===""
+else o=s
+if(o)return A.dk(A.fV(q,q,!0,q,q,1,q,q,q,!1,q,!1,q,q,q,q,!0,q,q,q,q,q,A.y(p,q,q,q,q,q,q,q,q),q,q,q,1,q),q,A.bO(A.aj(A.a([A.y("Please set the API Key and Base URL",q,q,q,q,q,q,q,q),A.dV(A.y("Settings",q,q,q,q,q,q,q,q),new A.bRS(r,a),q)],t.p),B.t,B.b7,B.u),q,q),q,q,q,q,q,q,q)
+o=A.y(p,q,q,q,q,q,q,q,q)
+n=t.p
+return A.dk(A.fV(A.a([A.dq(q,q,q,q,A.b1(B.K8,q,q,q),q,q,new A.bRT(r,a),q,q,q,q,q)],n),q,!0,q,q,1,q,q,q,!1,q,!1,q,q,q,q,!0,q,q,q,q,q,o,q,q,q,1,q),q,A.aj(A.a([A.bw(A.DA(new A.bRU(r),r.e.length,q,q,B.af,!1),1,q),new A.am(B.bu,A.al(A.a([A.bw(A.e1(!0,B.aO,!1,q,!0,B.J,q,A.ee(),r.d,q,q,q,q,q,2,A.da(q,new A.ev(4,B.cg,B.bB),q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,"Ask a question",!0,q,q,q,q,q,q,q,q,q,q,q,q,q),B.L,!0,q,!0,q,!1,q,B.b9,q,q,q,q,q,q,q,1,q,q,!1,"\u2022",q,q,q,q,q,!1,q,!1,q,!0,q,B.b0,q,q,B.b6,B.b3,q,q,q,q,q,q,q,B.a3,q,B.bf,q,q,q,q),1,q),A.dq(q,q,q,q,A.b1(B.K7,q,q,q),q,q,new A.bRV(r),q,q,q,q,q)],n),B.t,B.v,B.u,q),q)],n),B.t,B.v,B.u),q,q,q,q,q,q,q)},
 aBU(a){var s=null,r=$.ay(),q=new A.d1(B.aR,r),p=new A.d1(B.aR,r)
 r=this.f
 q.scA(0,r==null?"":r)
@@ -200222,21 +200218,17 @@ $S:0}
 A.a_S.prototype={
 P(){return new A.aK8(new A.d1(B.aR,$.ay()),A.a([],t.m0))}}
 A.aK8.prototype={
-a9(){var s,r,q=this
-q.ap()
-s=q.c
-s.toString
-s=A.t(s,!1,t.v).b
-r=s.x2
-q.f=r
-s=s.xr
-q.r=s
-q.w=new A.aoV(r,s)},
-D(a){var s,r,q=this,p=null,o="DeepSeek Chat"
-if(q.f==null||q.r==null)return A.dk(A.fV(p,p,!0,p,p,1,p,p,p,!1,p,!1,p,p,p,p,!0,p,p,p,p,p,A.y(o,p,p,p,p,p,p,p,p),p,p,p,1,p),p,A.bO(A.aj(A.a([A.y("Please set the API Key and Base URL",p,p,p,p,p,p,p,p),A.dV(A.y("Settings",p,p,p,p,p,p,p,p),new A.bVm(q,a),p)],t.p),B.t,B.b7,B.u),p,p),p,p,p,p,p,p,p)
-s=A.y(o,p,p,p,p,p,p,p,p)
-r=t.p
-return A.dk(A.fV(A.a([A.dq(p,p,p,p,A.b1(B.K8,p,p,p),p,p,new A.bVn(q,a),p,p,p,p,p)],r),p,!0,p,p,1,p,p,p,!1,p,!1,p,p,p,p,!0,p,p,p,p,p,s,p,p,p,1,p),p,A.aj(A.a([A.bw(A.DA(new A.bVo(q),q.e.length,p,p,B.af,!1),1,p),new A.am(B.bu,A.al(A.a([A.bw(A.e1(!0,B.aO,!1,p,!0,B.J,p,A.ee(),q.d,p,p,p,p,p,2,A.da(p,new A.ev(4,B.cg,B.bB),p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,"Ask a question",!0,p,p,p,p,p,p,p,p,p,p,p,p,p),B.L,!0,p,!0,p,!1,p,B.b9,p,p,p,p,p,p,p,1,p,p,!1,"\u2022",p,p,p,p,p,!1,p,!1,p,!0,p,B.b0,p,p,B.b6,B.b3,p,p,p,p,p,p,p,B.a3,p,B.bf,p,p,p,p),1,p),A.dq(p,p,p,p,A.b1(B.K7,p,p,p),p,p,new A.bVp(q),p,p,p,p,p)],r),B.t,B.v,B.u,p),p)],r),B.t,B.v,B.u),p,p,p,p,p,p,p)},
+a9(){this.ap()},
+D(a){var s,r=this,q=null,p="DeepSeek Chat",o=A.t(a,!1,t.v).b,n=r.f=o.x2
+o=r.r=o.xr
+r.w=new A.aoV(n,o)
+s=!0
+if(n!=="")o=o===""
+else o=s
+if(o)return A.dk(A.fV(q,q,!0,q,q,1,q,q,q,!1,q,!1,q,q,q,q,!0,q,q,q,q,q,A.y(p,q,q,q,q,q,q,q,q),q,q,q,1,q),q,A.bO(A.aj(A.a([A.y("Please set the API Key and Base URL",q,q,q,q,q,q,q,q),A.dV(A.y("Settings",q,q,q,q,q,q,q,q),new A.bVm(r,a),q)],t.p),B.t,B.b7,B.u),q,q),q,q,q,q,q,q,q)
+o=A.y(p,q,q,q,q,q,q,q,q)
+n=t.p
+return A.dk(A.fV(A.a([A.dq(q,q,q,q,A.b1(B.K8,q,q,q),q,q,new A.bVn(r,a),q,q,q,q,q)],n),q,!0,q,q,1,q,q,q,!1,q,!1,q,q,q,q,!0,q,q,q,q,q,o,q,q,q,1,q),q,A.aj(A.a([A.bw(A.DA(new A.bVo(r),r.e.length,q,q,B.af,!1),1,q),new A.am(B.bu,A.al(A.a([A.bw(A.e1(!0,B.aO,!1,q,!0,B.J,q,A.ee(),r.d,q,q,q,q,q,2,A.da(q,new A.ev(4,B.cg,B.bB),q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,"Ask a question",!0,q,q,q,q,q,q,q,q,q,q,q,q,q),B.L,!0,q,!0,q,!1,q,B.b9,q,q,q,q,q,q,q,1,q,q,!1,"\u2022",q,q,q,q,q,!1,q,!1,q,!0,q,B.b0,q,q,B.b6,B.b3,q,q,q,q,q,q,q,B.a3,q,B.bf,q,q,q,q),1,q),A.dq(q,q,q,q,A.b1(B.K7,q,q,q),q,q,new A.bVp(r),q,q,q,q,q)],n),B.t,B.v,B.u,q),q)],n),B.t,B.v,B.u),q,q,q,q,q,q,q)},
 atX(a){var s=null,r=$.ay(),q=new A.d1(B.aR,r),p=new A.d1(B.aR,r)
 r=this.f
 q.scA(0,r==null?"":r)
