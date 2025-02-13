@@ -223540,7 +223540,7 @@ s=A.z(new A.a8(b2,new A.b2A(b1),i),!0,i.i("t.E"))
 for(r=0,i=t.wa;r<J.b8(s);++r)try{q=J.v(s,r)
 d=q.a
 c=q.c
-a=A.bu(q.d.length,new A.Gg(0,q.d[r],-q.d[r],-1),!1,i)
+a=A.bu(q.d.length,new A.Gg(0,q.d[0],-q.d[0],-1),!1,i)
 a0=q.b
 a1=q.e
 a2=q.e
