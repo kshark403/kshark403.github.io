@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "b7651dcf53c11735278333b4fab61a5a",
-"assets/AssetManifest.bin.json": "52fa617b9afe0b3938745c3bf06af826",
-"assets/AssetManifest.json": "69ee434df7e5b8ac2878bb416c21300f",
+const RESOURCES = {"assets/AssetManifest.bin": "b65a82a2452eadfac2413923d8bdf3ec",
+"assets/AssetManifest.bin.json": "3f2434a7157fb4e873693975f5abfbf6",
+"assets/AssetManifest.json": "087acdaaf6eb4c6635fcf5e331d4d87e",
 "assets/assets/banks/aeon.svg": "d8bfa42f659b32772a22d7b3b78dc439",
 "assets/assets/banks/aeon.svg.bak": "9cc75fcf8c80bd20b506977a5acdd9e8",
 "assets/assets/banks/baac.svg": "77d5fddb58b1bd4c95bdf2e8b4aace77",
@@ -697,7 +697,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "b7651dcf53c11735278333b4fab61a5a
 "assets/assets/sounds/sound_sources.txt": "d0dfde839a8bcb60f267f8a0c4c74b11",
 "assets/FontManifest.json": "b3e62b795ce94c306dc2e1b21afc6a2d",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
-"assets/NOTICES": "495a84482e40bc8613cc3c8398f2feae",
+"assets/NOTICES": "95b906b597cdc85bbd505dd59c3136e8",
 "assets/packages/awesome_dialog/assets/flare/error.flr": "e3b124665e57682dab45f4ee8a16b3c9",
 "assets/packages/awesome_dialog/assets/flare/info.flr": "bc654ba9a96055d7309f0922746fe7a7",
 "assets/packages/awesome_dialog/assets/flare/info2.flr": "21af33cb65751b76639d98e106835cfb",
@@ -713,7 +713,6 @@ const RESOURCES = {"assets/AssetManifest.bin": "b7651dcf53c11735278333b4fab61a5a
 "assets/packages/awesome_dialog/assets/rive/question.riv": "00f02da4d08c2960079d4cd8211c930c",
 "assets/packages/awesome_dialog/assets/rive/success.riv": "73618ab4166b406e130c2042dc595f42",
 "assets/packages/awesome_dialog/assets/rive/warning.riv": "0becf971559a68f9a74c8f0c6e0f8335",
-"assets/packages/awesome_notifications/test/assets/images/test_image.png": "c27a71ab4008c83eba9b554775aa12ca",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b93248a553f9e8bc17f1065929d5934b",
 "assets/packages/remixicon/fonts/Remix.ttf": "94d7137d8d7f18dd64ce1b2a92e7abd9",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
@@ -726,7 +725,6 @@ const RESOURCES = {"assets/AssetManifest.bin": "b7651dcf53c11735278333b4fab61a5a
 "canvaskit/skwasm.js": "f2ad9363618c5f62e813740099a80e63",
 "canvaskit/skwasm.js.symbols": "80806576fa1056b43dd6d0b445b4b6f7",
 "canvaskit/skwasm.wasm": "f0dfd99007f989368db17c9abeed5a49",
-"canvaskit/skwasm.worker.js": "89990e8c92bcb123999aa81f7e203b1c",
 "canvaskit/skwasm_st.js": "d1326ceef381ad382ab492ba5d96f04d",
 "canvaskit/skwasm_st.js.symbols": "c7e7aac7cd8b612defd62b43e3050bdd",
 "canvaskit/skwasm_st.wasm": "56c3973560dfcbf28ce47cebe40f3206",
@@ -740,9 +738,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "b7651dcf53c11735278333b4fab61a5a
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "499cadf3dd9862a7803eac23aa8d7538",
 "/": "499cadf3dd9862a7803eac23aa8d7538",
-"main.dart.js": "16d51a0f5cc2ac0621ddf4061ad3966d",
+"main.dart.js": "b85a046383902aa08c4a6c7cbb146a1e",
 "manifest.json": "35f6a7e50a4a61c9c79d0fc14579ae3b",
-"my_js.js": "2d376123e807739c51914610814f4e9c",
+"my_js.js": "cd1452ae6582b902b214d9b18725d2a9",
 "TermConditions.html": "e5adc4391cd6fabd3227b72d17542896",
 "version.json": "c49e4621b80a524d89920862659ef087"};
 // The application shell files that are downloaded before a service worker can
