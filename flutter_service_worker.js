@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "b7651dcf53c11735278333b4fab61a5a",
-"assets/AssetManifest.bin.json": "52fa617b9afe0b3938745c3bf06af826",
-"assets/AssetManifest.json": "69ee434df7e5b8ac2878bb416c21300f",
+const RESOURCES = {"assets/AssetManifest.bin": "cbaffc945cfaaf6dd0f0eeb2be1796aa",
+"assets/AssetManifest.bin.json": "c8dba61909c51d2165b389d08e261282",
+"assets/AssetManifest.json": "21cfb7d4ba5cb67ad92e68c94d0942bb",
 "assets/assets/banks/aeon.svg": "d8bfa42f659b32772a22d7b3b78dc439",
 "assets/assets/banks/aeon.svg.bak": "9cc75fcf8c80bd20b506977a5acdd9e8",
 "assets/assets/banks/baac.svg": "77d5fddb58b1bd4c95bdf2e8b4aace77",
@@ -48,6 +48,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "b7651dcf53c11735278333b4fab61a5a
 "assets/assets/banks/uob.svg": "1d0b6d45fd0a5e31b1531925a403c03a",
 "assets/assets/emoji/Account%2520types/Asset.png": "53f510b5c43bcaaacba6f8f479b20e00",
 "assets/assets/emoji/Account%2520types/Credit%2520Card.png": "10d63b66bcba58bab1aab98c016d0b5c",
+"assets/assets/emoji/Account%2520types/Dept.png": "c24f16d5f1ec4205ba357a8448b07240",
 "assets/assets/emoji/Account%2520types/Fund.png": "7aade8c3d757d87552e7b2f43b43ce7a",
 "assets/assets/emoji/Account%2520types/Insurance.png": "356bfb792a92bd80483813ce31f02fad",
 "assets/assets/emoji/Account%2520types/Investing.png": "0ac7171f5b776fa4caedecc60938e751",
@@ -739,7 +740,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "b7651dcf53c11735278333b4fab61a5a
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "499cadf3dd9862a7803eac23aa8d7538",
 "/": "499cadf3dd9862a7803eac23aa8d7538",
-"main.dart.js": "b7191d3248709ee57199a4b532957d8b",
+"main.dart.js": "9c5843cae36cfcc7871c3ab200fd03e1",
 "manifest.json": "35f6a7e50a4a61c9c79d0fc14579ae3b",
 "my_js.js": "cd1452ae6582b902b214d9b18725d2a9",
 "TermConditions.html": "e5adc4391cd6fabd3227b72d17542896",
