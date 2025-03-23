@@ -56291,8 +56291,8 @@ case 8:return"assets/emoji/Account types/Others.png"}},
 NF(a){switch(a){case"Saving":return B.fr
 case"Credit card":return B.dP
 case"Investing":return B.i_
-case"Asset":return B.fT
-case"Dept":return B.i0
+case"Asset":return B.i0
+case"Dept":return B.fT
 case"Wallet":return B.i1
 case"Insurance":return B.iK
 case"Fund":return B.jj
@@ -203430,14 +203430,14 @@ g=A.a5(A.N(f),(B.f.aA(A.a1(f)-1,3)+1)*3,1,0,0,0,0,0)
 h=A.a5(A.N(g),A.a1(g)+1,0,0,0,0,0,0)}else if(f===A.C(B.a1))h=A.a5(A.N(A.a5(A.N(p.dx.a)+i,1,1,0,0,0,0,0)),12,31,0,0,0,0,0)
 else if(f===A.C(B.a0)){f=j.bB(864e8*(7*i))
 h=f.bB(864e8*(7-A.nm(A.fb(f))-1))}else{f=p.dx.a
-h=A.a5(A.N(f),A.a1(f),A.aM(f)+i,0,0,0,0,0)}p.RG.push(new A.Cx(h,p.xs(h,A.cJ(B.fr)),p.xs(h,A.cJ(B.dP)),p.xs(h,A.cJ(B.i_)),p.xs(h,A.cJ(B.fT)),p.xs(h,A.cJ(B.i0)),p.xs(h,A.cJ(B.i1)),p.xs(h,A.cJ(B.iK)),p.xs(h,A.cJ(B.jj)),p.xs(h,A.cJ(B.i2))))}p.rx=!1
+h=A.a5(A.N(f),A.a1(f),A.aM(f)+i,0,0,0,0,0)}p.RG.push(new A.Cx(h,p.xs(h,A.cJ(B.fr)),p.xs(h,A.cJ(B.dP)),p.xs(h,A.cJ(B.i_)),p.xs(h,A.cJ(B.i0)),p.xs(h,A.cJ(B.fT)),p.xs(h,A.cJ(B.i1)),p.xs(h,A.cJ(B.iK)),p.xs(h,A.cJ(B.jj)),p.xs(h,A.cJ(B.i2))))}p.rx=!1
 p.v()
 case 1:return A.j(q,r)}})
 return A.k($async$W,r)},
 xs(a,b){var s,r={}
 r.a=0
 s=this.apd(b)
-if(b===A.cJ(B.fT))B.e.B(s,this.apd(A.cJ(B.i0)))
+if(b===A.cJ(B.i0))B.e.B(s,this.apd(A.cJ(B.fT)))
 A.DK(s,new A.bdP(r,this,a,s))
 return A.d1(B.i.ar(r.a,2))}}
 A.bdQ.prototype={
@@ -204605,8 +204605,8 @@ break}if(s[p].y!==0){h=!0
 break}++p}if(r)f.push(new A.fr(A.cJ(B.fr),0,B.lf,e.fI(A.cJ(B.fr))))
 if(o)f.push(new A.fr(A.cJ(B.dP),0,B.D7,g.d.fI(A.cJ(B.dP))))
 if(n)f.push(new A.fr(A.cJ(B.i_),0,B.lg,g.d.fI(A.cJ(B.i_))))
-if(m)f.push(new A.fr(A.cJ(B.fT),0,B.fi,g.d.fI(A.cJ(B.fT))))
-if(l)f.push(new A.fr(A.cJ(B.i0),0,B.D4,g.d.fI(A.cJ(B.i0))))
+if(m)f.push(new A.fr(A.cJ(B.i0),0,B.fi,g.d.fI(A.cJ(B.i0))))
+if(l)f.push(new A.fr(A.cJ(B.fT),0,B.D4,g.d.fI(A.cJ(B.fT))))
 if(k)f.push(new A.fr(A.cJ(B.i1),0,B.D5,g.d.fI(A.cJ(B.i1))))
 if(j)f.push(new A.fr(A.cJ(B.iK),0,B.a3n,g.d.fI(A.cJ(B.iK))))
 if(i)f.push(new A.fr(A.cJ(B.jj),0,B.D8,g.d.fI(A.cJ(B.jj))))
@@ -204746,12 +204746,12 @@ n=n!==!1}else n=!1
 if(n)e.d.y2=o
 n=r.e
 m=e.d
-if(n>m.y2){m=m.a9.h(0,A.cJ(B.fT))
+if(n>m.y2){m=m.a9.h(0,A.cJ(B.i0))
 m=m!==!1}else m=!1
 if(m)e.d.y2=n
 m=r.f
 l=e.d
-if(m>l.y2){l=l.a9.h(0,A.cJ(B.i0))
+if(m>l.y2){l=l.a9.h(0,A.cJ(B.fT))
 l=l!==!1}else l=!1
 if(l)e.d.y2=m
 l=r.r
@@ -204787,11 +204787,11 @@ if(o<q.y1){q=q.a9.h(0,A.cJ(B.i_))
 q=q!==!1}else q=!1
 if(q)e.d.y1=o
 q=e.d
-if(n<q.y1){q=q.a9.h(0,A.cJ(B.fT))
+if(n<q.y1){q=q.a9.h(0,A.cJ(B.i0))
 q=q!==!1}else q=!1
 if(q)e.d.y1=n
 q=e.d
-if(m<q.y1){q=q.a9.h(0,A.cJ(B.i0))
+if(m<q.y1){q=q.a9.h(0,A.cJ(B.fT))
 q=q!==!1}else q=!1
 if(q)e.d.y1=m
 q=e.d
@@ -204883,8 +204883,8 @@ d0===$&&A.b()
 s=d0.fI(A.cJ(B.fr))?c8.b:0
 r=c9.d.fI(A.cJ(B.dP))?c8.c:0
 q=c9.d.fI(A.cJ(B.i_))?c8.d:0
-p=c9.d.fI(A.cJ(B.fT))?c8.e:0
-o=c9.d.fI(A.cJ(B.i0))?c8.f:0
+p=c9.d.fI(A.cJ(B.i0))?c8.e:0
+o=c9.d.fI(A.cJ(B.fT))?c8.f:0
 n=c9.d.fI(A.cJ(B.i1))?c8.r:0
 m=c9.d.fI(A.cJ(B.iK))?c8.w:0
 l=c9.d.fI(A.cJ(B.jj))?c8.x:0
@@ -205355,11 +205355,11 @@ a6=!a6.fI(A.cJ(B.i_))}else a6=!0
 g=a6?"":"\nInvest: "+A.hK(a2,a1).X(q)
 if(p!==0){a6=a0.a.d
 a6===$&&A.b()
-a6=!a6.fI(A.cJ(B.fT))}else a6=!0
+a6=!a6.fI(A.cJ(B.i0))}else a6=!0
 f=a6?"":"\nAsset: "+A.hK(a2,a1).X(p)
 if(o!==0){a6=a0.a.d
 a6===$&&A.b()
-a6=!a6.fI(A.cJ(B.i0))}else a6=!0
+a6=!a6.fI(A.cJ(B.fT))}else a6=!0
 e=a6?"":"\nDept: "+A.hK(a2,a1).X(o)
 if(n!==0){a6=a0.a.d
 a6===$&&A.b()
@@ -244205,8 +244205,8 @@ B.ckp=new A.aY5(0,"unknown")
 B.fr=new A.pl(0,"saving")
 B.dP=new A.pl(1,"creditCard")
 B.i_=new A.pl(2,"investing")
-B.fT=new A.pl(3,"asset")
-B.i0=new A.pl(4,"dept")
+B.i0=new A.pl(3,"asset")
+B.fT=new A.pl(4,"dept")
 B.i1=new A.pl(5,"wallet")
 B.iK=new A.pl(6,"insurance")
 B.jj=new A.pl(7,"fund")
@@ -246941,7 +246941,7 @@ B.dp=A.a(s(["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturda
 B.boL=A.a(s(["y- MMMM d- EEEE","y- MMMM d","y- MMM d","dd-MM-yy"]),t.s)
 B.S1=A.a(s(["\u0e44\u0e15\u0e23\u0e21\u0e32\u0e2a 1","\u0e44\u0e15\u0e23\u0e21\u0e32\u0e2a 2","\u0e44\u0e15\u0e23\u0e21\u0e32\u0e2a 3","\u0e44\u0e15\u0e23\u0e21\u0e32\u0e2a 4"]),t.s)
 B.boP=A.a(s(["\u0c15\u0c4d\u0c30\u0c40\u0c38\u0c4d\u0c24\u0c41 \u0c2a\u0c42\u0c30\u0c4d\u0c35\u0c02","\u0c15\u0c4d\u0c30\u0c40\u0c38\u0c4d\u0c24\u0c41 \u0c36\u0c15\u0c02"]),t.s)
-B.BN=A.a(s([B.fr,B.dP,B.i_,B.fT,B.i0,B.i1,B.iK,B.jj,B.i2]),A.ar("H<pl>"))
+B.BN=A.a(s([B.fr,B.dP,B.i_,B.i0,B.fT,B.i1,B.iK,B.jj,B.i2]),A.ar("H<pl>"))
 B.boT=A.a(s(["\u043f\u0440\u0435\u0434 \u043d\u0430\u0448\u0430\u0442\u0430 \u0435\u0440\u0430","\u043e\u0434 \u043d\u0430\u0448\u0430\u0442\u0430 \u0435\u0440\u0430"]),t.s)
 B.boU=A.a(s([B.yk,B.yl]),A.ar("H<YD>"))
 B.boV=A.a(s(["\u0411\u0456\u0437\u0434\u0456\u04a3 \u0437\u0430\u043c\u0430\u043d\u044b\u043c\u044b\u0437\u0493\u0430 \u0434\u0435\u0439\u0456\u043d","\u0431\u0456\u0437\u0434\u0456\u04a3 \u0437\u0430\u043c\u0430\u043d\u044b\u043c\u044b\u0437"]),t.s)
