@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "dfb2f681bc85a02bc928330e7b84af93",
-"assets/AssetManifest.bin.json": "b70ea71d3f58d828812d139541149e15",
-"assets/AssetManifest.json": "635f6d5d65ea1a0d81f76d1458a06151",
+const RESOURCES = {"assets/AssetManifest.bin": "cbaffc945cfaaf6dd0f0eeb2be1796aa",
+"assets/AssetManifest.bin.json": "c8dba61909c51d2165b389d08e261282",
+"assets/AssetManifest.json": "21cfb7d4ba5cb67ad92e68c94d0942bb",
 "assets/assets/banks/aeon.svg": "d8bfa42f659b32772a22d7b3b78dc439",
 "assets/assets/banks/aeon.svg.bak": "9cc75fcf8c80bd20b506977a5acdd9e8",
 "assets/assets/banks/baac.svg": "77d5fddb58b1bd4c95bdf2e8b4aace77",
@@ -698,7 +698,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "dfb2f681bc85a02bc928330e7b84af93
 "assets/assets/sounds/sound_sources.txt": "d0dfde839a8bcb60f267f8a0c4c74b11",
 "assets/FontManifest.json": "b3e62b795ce94c306dc2e1b21afc6a2d",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
-"assets/NOTICES": "92870b278339ab84203b729389d5a9a3",
+"assets/NOTICES": "6373af718454cd5fcec71438f6b84da0",
 "assets/packages/awesome_dialog/assets/flare/error.flr": "e3b124665e57682dab45f4ee8a16b3c9",
 "assets/packages/awesome_dialog/assets/flare/info.flr": "bc654ba9a96055d7309f0922746fe7a7",
 "assets/packages/awesome_dialog/assets/flare/info2.flr": "21af33cb65751b76639d98e106835cfb",
@@ -714,6 +714,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "dfb2f681bc85a02bc928330e7b84af93
 "assets/packages/awesome_dialog/assets/rive/question.riv": "00f02da4d08c2960079d4cd8211c930c",
 "assets/packages/awesome_dialog/assets/rive/success.riv": "73618ab4166b406e130c2042dc595f42",
 "assets/packages/awesome_dialog/assets/rive/warning.riv": "0becf971559a68f9a74c8f0c6e0f8335",
+"assets/packages/awesome_notifications/test/assets/images/test_image.png": "c27a71ab4008c83eba9b554775aa12ca",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b93248a553f9e8bc17f1065929d5934b",
 "assets/packages/remixicon/fonts/Remix.ttf": "94d7137d8d7f18dd64ce1b2a92e7abd9",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
@@ -739,7 +740,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "dfb2f681bc85a02bc928330e7b84af93
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "499cadf3dd9862a7803eac23aa8d7538",
 "/": "499cadf3dd9862a7803eac23aa8d7538",
-"main.dart.js": "d3f0273a04ce0f8fc7b7e9544bdecbb9",
+"main.dart.js": "e32b340a313abc691c8eeed08462f56f",
 "manifest.json": "35f6a7e50a4a61c9c79d0fc14579ae3b",
 "my_js.js": "cd1452ae6582b902b214d9b18725d2a9",
 "TermConditions.html": "e5adc4391cd6fabd3227b72d17542896",
