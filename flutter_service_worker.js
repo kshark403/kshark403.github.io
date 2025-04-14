@@ -698,7 +698,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "cbaffc945cfaaf6dd0f0eeb2be1796aa
 "assets/assets/sounds/sound_sources.txt": "d0dfde839a8bcb60f267f8a0c4c74b11",
 "assets/FontManifest.json": "b3e62b795ce94c306dc2e1b21afc6a2d",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
-"assets/NOTICES": "6373af718454cd5fcec71438f6b84da0",
+"assets/NOTICES": "1267039f0a239f3c04d80e2b778efc8f",
 "assets/packages/awesome_dialog/assets/flare/error.flr": "e3b124665e57682dab45f4ee8a16b3c9",
 "assets/packages/awesome_dialog/assets/flare/info.flr": "bc654ba9a96055d7309f0922746fe7a7",
 "assets/packages/awesome_dialog/assets/flare/info2.flr": "21af33cb65751b76639d98e106835cfb",
