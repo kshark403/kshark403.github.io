@@ -65405,7 +65405,7 @@ A.cwr.prototype={
 $1(a){var s=A.mX().b
 if(s==null)s=null
 else{s=s.canvasKitBaseUrl
-if(s==null)s=null}return(s==null?"https://www.gstatic.com/flutter-canvaskit/18b71d647a292a980abb405ac7d16fe1f0b20434/":s)+a},
+if(s==null)s=null}return(s==null?"https://www.gstatic.com/flutter-canvaskit/cf56914b326edb0ccb123ffdc60f00060bd513fa/":s)+a},
 $S:23}
 A.b3t.prototype={
 cT(a){B.i.H(this.a.a.save())},
