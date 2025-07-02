@@ -196334,7 +196334,7 @@ else if(i.rx.l(0,B.fA))j=g
 else if(i.rx.l(0,B.d6))j="topLeft"
 else if(i.rx.l(0,B.ed))j=f
 else j=i.rx.l(0,B.h7)?e:h
-return A.au(["theme",d.a,"lang",c.a,"weekStart",b.a,"notTime",a+":"+a0,"showDailyNot",a1,"soundEffects",a2,"showMonthName",a3,"showWeekNo",a4,"showCalendarHeader",a5,"showCalendarButton",a6,"showColorMode",a7,"showEmojiIcon",a8,"seenOnboarding",a9,"seenTutorial",b0,"seenLogin",b1,"seenPop",b2,"serverUrl",b3,"incomeColor",b4,"primaryColor",b5,"expenseColor",b6,"transferColor",b7,"paidColor",b8,"overdueColor",b9,"balanceColor",c0,"pageStart",c1,"ttsVolume",c2,"ttsPitch",c3,"ttsRate",c4,"ttsLastWord",c5,"fontFamily",c6,"myBirthday",c7,"myDateOfJoin",s,"myDateOfTerminated",r,"multipleThemesModemultipleThemesMode",q,"textDarkColor",p,"countryLocale",o,"startAnglePaid",n,"endAnglePaid",m,"angleUnpaid",l,"alignmentPaid",k,"alignmentUnpaid",j,"keyboardLayout",i.to,"selectedShape",i.x1,"apiKeyChatGPT",i.x2,"baseUrlChatGPT",i.xr,"apiKeyDeepSeek",i.y1,"baseUrlDeepSeek",i.y2],t.N,t.z)}}
+return A.au(["theme",d.a,"lang",c.a,"weekStart",b.a,"notTime",a+":"+a0,"showDailyNot",a1,"soundEffects",a2,"showMonthName",a3,"showWeekNo",a4,"showCalendarHeader",a5,"showCalendarButton",a6,"showColorMode",a7,"showEmojiIcon",a8,"seenOnboarding",a9,"seenTutorial",b0,"seenLogin",b1,"seenPop",b2,"serverUrl",b3,"incomeColor",b4,"primaryColor",b5,"expenseColor",b6,"transferColor",b7,"paidColor",b8,"overdueColor",b9,"balanceColor",c0,"pageStart",c1,"ttsVolume",c2,"ttsPitch",c3,"ttsRate",c4,"ttsLastWord",c5,"fontFamily",c6,"myBirthday",c7,"myDateOfJoin",s,"myDateOfTerminated",r,"multipleThemesMode",q,"textDarkColor",p,"countryLocale",o,"startAnglePaid",n,"endAnglePaid",m,"angleUnpaid",l,"alignmentPaid",k,"alignmentUnpaid",j,"keyboardLayout",i.to,"selectedShape",i.x1,"apiKeyChatGPT",i.x2,"baseUrlChatGPT",i.xr,"apiKeyDeepSeek",i.y1,"baseUrlDeepSeek",i.y2],t.N,t.z)}}
 A.c0.prototype={
 cj(){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=g.d,e=g.e,d=g.f,c=g.y,b=g.r,a=g.ax,a0=$.rc(),a1=a0.W(g.ch),a2=g.w,a3=g.cx?1:0,a4=g.cy?1:0,a5=g.z,a6=g.Q,a7=g.fx,a8=g.k1
 if(a8==null)a8=""
@@ -226695,13 +226695,12 @@ for(n=k.length,i=A.J(k).i("a8<1>"),h=i.i("q.E"),g=0;g<k.length;k.length===n||(0,
 if(f.b===0){j.push(f)
 e=A.w(new A.a8(k,new A.bBo(f),i),h)
 B.e.dn(e,new A.bBp())
-B.e.C(j,e)}}p.CW=j
+B.e.C(j,e)}}p.CW=j}n=A.bB(b.h(c,"showEmojiIcon"))
+p.b.CW=n!==!1
 d=$.eN().eH(0,t.T2)
-n=A.X(b.h(c,"myDateOfTerminated"))
-d.xB(B.bQ.yi(0,n==null?"null":n,null))}c=A.bB(b.h(c,"showEmojiIcon"))
-b=p.b
-b.CW=c!==!1
-q=b
+c=A.X(b.h(c,"myDateOfTerminated"))
+d.xB(B.bQ.yi(0,c==null?"null":c,null))
+q=p.b
 s=1
 break
 case 1:return A.i(q,r)}})
