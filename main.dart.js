@@ -197512,7 +197512,8 @@ n=n.h8(b0,new A.bEQ(a6))
 d=A.w(n,n.$ti.i("q.E"))
 for(n=d.length,c=0,b=0,a=0;a<n;++a){a0=d[a]
 m=a0.fy
-m=m!=null&&m===0
+if(m!=null){a1=a0.go
+m=a1!=null&&m===0&&a1===0}else m=!1
 a1=a0.ax
 if(m)b+=a1
 else c+=a1}l=e.id
@@ -197528,7 +197529,8 @@ if(k==null)k=0
 j=A.Z(A.L(l),A.Y(l)+k+1,A.aD(l),0,0,0,0,0)
 if(A.Z(A.L(a9),A.Y(a9),1,0,0,0,0,0).fl(A.Z(A.L(j),A.Y(j),1,0,0,0,0,0))){a7.ay=a7.ax=0
 s=1
-break}++o}i=o-a5
+break}++o
+b=0}i=o-a5
 h=A.L(l)
 if(i>0){g=a7.ax
 a2=A.Z(A.L(a9),A.Y(a9),1,0,0,0,0,0).hM(A.Z(A.L(l),A.Y(l),1,0,0,0,0,0))?a7.ax:c
@@ -197540,7 +197542,7 @@ a3=a6.fy
 if(!(a3!=null&&a3!==n))a3=n
 a4=a6.go
 if(!(a4!=null&&a4!==m))a4=m
-for(n=a4<0,f=0;f<i;++f)if(f+a5<h){g+=g*a3/100
+for(n=m<0,f=0;f<i;++f)if(f+a5<h){g+=g*a3/100
 a2+=a2*a3/100}else{g+=g*a4/100
 a2+=a2*a4/100
 if(n)break}a7.ax=g
