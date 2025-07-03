@@ -197408,8 +197408,9 @@ i.p2=a0.ax
 i.p3=a0.ay
 i.RG=a0.f
 i.CW=i.ch=a
-s=A.Z(A.L(a),A.Y(a),1,0,0,0,0,0)
-if(s.a===l.a&&s.b===l.b){i.p3=i.p2=i.ay=i.ax=m
+s=n.ax
+q=A.Z(A.L(a),A.Y(a),1,0,0,0,0,0)
+if(q.a===l.a&&q.b===l.b){i.p3=i.p2=i.ay=i.ax=s*m
 B.e.v(a4,i)}}}s=a0.fx
 s.toString
 h=A.Z(A.L(a),A.Y(a)+s+1,0,0,0,0,0,0)
@@ -199564,8 +199565,8 @@ gagI(){return"Next month"},
 gagO(){return"Previous 2 months"},
 gagH(){return"Next 2 months"},
 gagk(){return"Current month"},
-galL(){return"Terminate package"},
-gajF(){return"Terminate package"}}
+galL(){return"Terminate package (x months)"},
+gajF(){return"Terminate package (x months)"}}
 A.aks.prototype={
 ga_l(){return"\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35\u0e08\u0e49\u0e32, \u0e22\u0e34\u0e19\u0e14\u0e35\u0e15\u0e49\u0e2d\u0e19\u0e23\u0e31\u0e1a\u0e08\u0e49\u0e32"},
 ga1l(){return"\u0e2b\u0e19\u0e49\u0e32\u0e2b\u0e25\u0e31\u0e01"},
@@ -200208,8 +200209,8 @@ gagI(){return"\u0e40\u0e14\u0e37\u0e2d\u0e19\u0e16\u0e31\u0e14\u0e44\u0e1b"},
 gagO(){return"2 \u0e40\u0e14\u0e37\u0e2d\u0e19\u0e01\u0e48\u0e2d\u0e19\u0e2b\u0e19\u0e49\u0e32"},
 gagH(){return"2 \u0e40\u0e14\u0e37\u0e2d\u0e19\u0e16\u0e31\u0e14\u0e44\u0e1b"},
 gagk(){return"\u0e40\u0e14\u0e37\u0e2d\u0e19\u0e1b\u0e31\u0e08\u0e08\u0e38\u0e1a\u0e31\u0e19"},
-galL(){return"\u0e22\u0e38\u0e15\u0e34\u0e41\u0e1e\u0e47\u0e01\u0e40\u0e01\u0e08"},
-gajF(){return"\u0e22\u0e38\u0e15\u0e34\u0e41\u0e1e\u0e47\u0e01\u0e40\u0e01\u0e08"}}
+galL(){return"\u0e22\u0e38\u0e15\u0e34\u0e41\u0e1e\u0e47\u0e01\u0e40\u0e01\u0e08 (x \u0e40\u0e14\u0e37\u0e2d\u0e19)"},
+gajF(){return"\u0e22\u0e38\u0e15\u0e34\u0e41\u0e1e\u0e47\u0e01\u0e40\u0e01\u0e08 (x \u0e40\u0e14\u0e37\u0e2d\u0e19)"}}
 A.akt.prototype={
 ga_l(){return"\u60a8\u597d,\u6b61\u8fce\u5149\u81e8\u3002"},
 ga1l(){return"\u9996\u9801"},
@@ -200852,8 +200853,8 @@ gagI(){return"\u4e0b\u4e2a\u6708"},
 gagO(){return"\u524d 2 \u4e2a\u6708"},
 gagH(){return"\u540e 2 \u4e2a\u6708"},
 gagk(){return"\u5f53\u524d\u6708\u4efd"},
-galL(){return"\u7ec8\u6b62\u5305"},
-gajF(){return"\u7ec8\u6b62\u5305"}}
+galL(){return"\u7ec8\u6b62\u5957\u9910 (x \u4e2a\u6708)"},
+gajF(){return"\u7ec8\u6b62\u5957\u9910 (x \u4e2a\u6708)"}}
 A.a4K.prototype={
 S(){var s=$.aB(),r=A.Fp(),q=A.IX(),p=$.eJ(),o=t.b,n=t.t,m=t.s,l=t.V,k=t.o
 return new A.aOh(new A.vp(s),r,q,new A.ri(p.eC(0,t.P6),p.eC(0,t.vH),new A.S(Date.now(),0,!1),A.C(t.e,t.Y),A.a([],o),A.Z(2000,1,1,0,0,0,0,0),A.a([],n),A.a([],m),A.a([],t.gX),A.a([],l),A.a([],o),A.a([],o),A.a([],t.lC),A.a([],k),A.a([],k),A.a([],k),A.a([],l),A.a([],n),A.a([],m),$.hb(),$.hy(),A.C(t.N,t.z),A.a([],n),A.y(B.Q),A.bH(B.aG),A.bH(B.aG),A.e0(),new A.bh(null,t.VL),s),new A.mM(B.lr,B.eu.aK(),B.a4r,s),new A.vx($.cF2(),s))}}
