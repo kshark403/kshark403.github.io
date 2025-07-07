@@ -197506,7 +197506,7 @@ if(a6.as===-1){if(a8.n(0,a6.w)&&a6.id!=null){o=A.L(a9)
 n=a6.id
 n.toString
 m=p.f
-if(m!=null&&m.fm(n)){n=p.f
+if(m!=null&&A.L(n)!==2100&&m.fm(n)){n=p.f
 n.toString
 l=A.Z(A.L(n),A.Y(n),1,0,0,0,0,0)}else l=n
 if(A.Y(a9)<=A.Y(l))--o
