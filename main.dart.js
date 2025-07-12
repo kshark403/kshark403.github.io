@@ -51126,9 +51126,8 @@ b.sln(A.f4(f==null?[]:f,!0,q))
 f=g.h(0,"payeeTypes")
 b.slO(A.f4(f==null?[]:f,!0,q))
 f=g.h(0,"pathCategory")
-h=A.f4(f==null?[]:f,!0,o)
-b.ch=h
-b.lN(h[0])
+h=b.ch=A.f4(f==null?[]:f,!0,o)
+if(h.length!==0)b.lN(h[0])
 f=t.J
 q=A.z(a,B.q,f).gfq()
 o=g.h(0,"mapLegendsShowIncome")
