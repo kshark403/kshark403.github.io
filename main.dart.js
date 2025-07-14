@@ -51270,15 +51270,19 @@ p.ch=n==null?p.ch:n
 n=p.p1
 p.CW=n==null?p.CW:n
 n=p.p2
-p.ax=n==null?p.ax:n
-n=p.p3
-p.ay=n==null?p.ay:n
-n=p.RG
+if(n==null)n=p.ax
+p.ax=n
+o=p.p3
+p.ay=o==null?p.ay:o
 o=!1
-if(n!=null)if(n!==-1){o=p.k1
-o=o!=null&&o!==-1}if(o){p.w=-1
+if(n<0){n=p.RG
+if(n!=null)if(n!==-1){n=p.k1
+n=n!=null&&n!==-1}else n=o
+else n=o}else n=o
+if(n){p.w=-1
 p.db=B.U
-p.f=n}}A.cr(new A.xg(p,null,null,null,b,null),a,!0,t.z)
+n=p.RG
+p.f=n==null?p.f:n}}A.cr(new A.xg(p,null,null,null,b,null),a,!0,t.z)
 case 1:return A.h(q,r)}})
 return A.i($async$lr,r)},
 d2j(a,b){var s=b.y,r=b.at,q=b.r,p=b.ax,o=b.as,n=b.CW,m=b.dx
@@ -197211,16 +197215,8 @@ j=A.ba(g.db)
 i=g.dx?1:0
 h=$.kF()
 return A.at(["id",f,"idHab",e,"idHabTo",d,"repeat",c,"title",b,"money",a,"startDate",a1,"category",a2,"isDeleted",a3,"isPaided",a4,"endAfter",a5,"endTimes",a6,"repeatTimes",a7,"transferToCat",a8,"rateAnnual1",s,"rateAnnual2",r,"endDateAnnual",q,"gracePeriod",p,"terminatePackage",o,"idGrp",n,"idHabGrp",m,"endDate",l,"memo",a0,"moneyGrp",k,"type",j,"isSync",i,"createdAt",h.a_(g.dy),"updatedAt",h.a_(g.fr)],t.N,t.z)},
-wF(b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3){var s,r,q,p,o=this,n=c2==null?o.d:c2,m=c4==null?o.e:c4,l=c6==null?o.f:c6,k=d6==null?o.y:d6,j=e0==null?o.r:e0,i=d1==null?o.ax:d1,h=d2==null?o.ay:d2,g=d8==null?o.ch:d8,f=b5==null?o.w:b5,e=d0==null?o.x:d0,d=c7==null?o.cx:c7,c=c8==null?o.cy:c8,b=b7==null?o.z:b7,a=c0==null?o.Q:c0,a0=d7==null?o.fx:d7,a1=e1==null?o.k1:e1,a2=d4==null?o.fy:d4,a3=d5==null?o.go:d5,a4=b9==null?o.id:b9,a5=c1==null?o.k2:c1,a6=d9==null?o.k3:d9,a7=c3==null?o.as:c3,a8=c5==null?o.at:c5,a9=b8==null?o.CW:b8,b0=e2==null?o.db:e2,b1=c9==null?o.dx:c9,b2=b6==null?o.dy:b6,b3=e3==null?o.fr:e3,b4=o.ok
-if(b4==null)b4=o.ch
-s=o.p1
-if(s==null)s=o.CW
-r=d3==null?o.p2:d3
-if(r==null)r=o.ax
-q=o.p3
-if(q==null)q=o.ay
-p=o.RG
-return A.UG(f,b2,b,a9,a4,s,a,a5,n,a7,m,a8,l,p==null?o.f:p,d,c,b1,e,i,h,q,r,a2,a3,k,a0,g,b4,a6,j,a1,b0,b3)},
+wF(b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3){var s=this,r=c2==null?s.d:c2,q=c4==null?s.e:c4,p=c6==null?s.f:c6,o=d6==null?s.y:d6,n=e0==null?s.r:e0,m=d1==null?s.ax:d1,l=d2==null?s.ay:d2,k=d8==null?s.ch:d8,j=b5==null?s.w:b5,i=d0==null?s.x:d0,h=c7==null?s.cx:c7,g=c8==null?s.cy:c8,f=b7==null?s.z:b7,e=c0==null?s.Q:c0,d=d7==null?s.fx:d7,c=e1==null?s.k1:e1,b=d4==null?s.fy:d4,a=d5==null?s.go:d5,a0=b9==null?s.id:b9,a1=c1==null?s.k2:c1,a2=d9==null?s.k3:d9,a3=c3==null?s.as:c3,a4=c5==null?s.at:c5,a5=b8==null?s.CW:b8,a6=e2==null?s.db:e2,a7=c9==null?s.dx:c9,a8=b6==null?s.dy:b6,a9=e3==null?s.fr:e3,b0=s.ok,b1=s.p1,b2=d3==null?s.p2:d3,b3=s.p3,b4=s.RG
+return A.UG(j,a8,f,a5,a0,b1,e,a1,r,a3,q,a4,p,b4,h,g,a7,i,m,l,b3,b2,b,a,o,d,k,b0,a2,n,c,a6,a9)},
 dF(){var s=null
 return this.wF(s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)},
 adq(a,b,c,d,e,f,g,h,i,j,k){var s=null
