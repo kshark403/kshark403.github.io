@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "c4afcec9841c9e2477344f51e4b4ed6f",
-"assets/AssetManifest.bin.json": "05b288a56a9421dd87b47f324f208574",
-"assets/AssetManifest.json": "0ee45ea61316b6a1106fa6c4e962ae77",
+const RESOURCES = {"assets/AssetManifest.bin": "ab56774a5f4de663a46939585a588395",
+"assets/AssetManifest.bin.json": "ed7930fa6814473829f506e0b4971a6d",
+"assets/AssetManifest.json": "a9e63514c37fe3f04478d14f37d267df",
 "assets/assets/banks/aeon.svg": "d8bfa42f659b32772a22d7b3b78dc439",
 "assets/assets/banks/aeon.svg.bak": "9cc75fcf8c80bd20b506977a5acdd9e8",
 "assets/assets/banks/baac.svg": "77d5fddb58b1bd4c95bdf2e8b4aace77",
@@ -691,6 +691,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "c4afcec9841c9e2477344f51e4b4ed6f
 "assets/assets/images_habo/onboard/2.svg": "31c8c53fa967d7d37bd041f1b3e0abc0",
 "assets/assets/images_habo/onboard/3.svg": "39a4d310da5789aaf9a8c16502eb9eb3",
 "assets/assets/img/logo-512-alpha.png": "92ee571b734c2b4b97c0d6d9b2291813",
+"assets/assets/jsons/all_menu_items.json": "e14e4bbe81cef2e2f12989775c37e5f5",
 "assets/assets/jsons/banks.json": "6cf183f7c72b9ef928545ffd538c754e",
 "assets/assets/jsons/emoji.json": "83ca9530c01753b71b71924d3c81b6ac",
 "assets/assets/sounds/cash.wav": "2c148b7e7d915860baaa3d8226bc046c",
@@ -738,7 +739,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "c4afcec9841c9e2477344f51e4b4ed6f
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "8b5a0fb350315f3cba0ecc1d46b8c2a1",
 "/": "8b5a0fb350315f3cba0ecc1d46b8c2a1",
-"main.dart.js": "2c6620030c9b168bc434118789ed49c7",
+"main.dart.js": "3e9baf974d7ba54193f861a0362177a6",
 "manifest.json": "0764b6c9a0d12d15d536fc38b25d296d",
 "my_js.js": "cd1452ae6582b902b214d9b18725d2a9",
 "version.json": "98ea962230842745a4c06f87aa348b53"};
