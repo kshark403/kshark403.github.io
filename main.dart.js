@@ -45745,10 +45745,10 @@ this.b=b},
 jA:function jA(a,b,c){this.a=a
 this.b=b
 this.c=c},
-dl_(a){var s,r=J.a2(a),q=r.h(a,"id"),p=r.h(a,"name")
-if(r.h(a,"events")!=null){s=J.aT(t.j.a(r.h(a,"events")),new A.b_h(),t.Fo)
+dl_(a){var s=J.a2(a),r=s.h(a,"id"),q=s.h(a,"name"),p=s.h(a,"colorValue"),o=s.h(a,"shape")
+if(s.h(a,"events")!=null){s=J.aT(t.j.a(s.h(a,"events")),new A.b_h(),t.Fo)
 s=A.o(s,s.$ti.i("Q.E"))}else s=null
-return new A.ij(q,p,s,r.h(a,"colorValue"),r.h(a,"shape"),null,null,A.B(t.FF,t.S))},
+return new A.ij(r,q,s,p,o,null,null,A.B(t.FF,t.S))},
 ij:function ij(a,b,c,d,e,f,g,h){var _=this
 _.d=a
 _.e=b
@@ -188214,10 +188214,10 @@ A.PD.prototype={}
 A.jA.prototype={}
 A.ij.prototype={
 k(a){return"Calendar(id: "+this.d+", name: "+this.e+", events: "+A.y(this.f)+")"},
-bi(){var s=this,r=s.d,q=s.f
-if(q==null)q=null
-else{q=J.aT(q,new A.b03(),t.a)
-q=A.o(q,q.$ti.i("Q.E"))}return A.an(["id",r,"name",s.e,"events",q,"colorValue",s.r,"shape",s.w],t.N,t.z)},
+bi(){var s=this,r=s.d,q=s.r,p=s.w,o=s.f
+if(o==null)o=null
+else{o=J.aT(o,new A.b03(),t.a)
+o=A.o(o,o.$ti.i("Q.E"))}return A.an(["id",r,"name",s.e,"colorValue",q,"shape",p,"events",o],t.N,t.z)},
 gdG(a){return this.d}}
 A.b_h.prototype={
 $1(a){return A.d4e(a)},
