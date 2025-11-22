@@ -700,7 +700,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "ab56774a5f4de663a46939585a588395
 "assets/assets/sounds/sound_sources.txt": "d0dfde839a8bcb60f267f8a0c4c74b11",
 "assets/FontManifest.json": "b3e62b795ce94c306dc2e1b21afc6a2d",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
-"assets/NOTICES": "34f6cde41dd2346ad61050bd5ca7eed5",
+"assets/NOTICES": "cfbbcc4a1ff0c61fb0bcf7c3aeea900d",
 "assets/packages/awesome_dialog/assets/flare/error.flr": "e3b124665e57682dab45f4ee8a16b3c9",
 "assets/packages/awesome_dialog/assets/flare/info.flr": "bc654ba9a96055d7309f0922746fe7a7",
 "assets/packages/awesome_dialog/assets/flare/info2.flr": "21af33cb65751b76639d98e106835cfb",
@@ -739,7 +739,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "ab56774a5f4de663a46939585a588395
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "8b5a0fb350315f3cba0ecc1d46b8c2a1",
 "/": "8b5a0fb350315f3cba0ecc1d46b8c2a1",
-"main.dart.js": "637ad6e469e7c1a6f019f709bc4371e4",
+"main.dart.js": "00f045d47f4a8c309ce86ea7234eb94f",
 "manifest.json": "0764b6c9a0d12d15d536fc38b25d296d",
 "my_js.js": "cd1452ae6582b902b214d9b18725d2a9",
 "version.json": "98ea962230842745a4c06f87aa348b53"};
