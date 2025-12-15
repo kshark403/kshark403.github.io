@@ -46433,7 +46433,7 @@ s.b=t.zd.a($.SN.G().call(null,r,a))
 return s},
 dl1(a,b){if(b==null)return t.KB.a($.d9J.G().call(null,a))
 return t.KB.a($.d9J.G().call(null,a,b))},
-dX_(){return"https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@30.0.0/"},
+dX_(){return"https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@31.0.0/"},
 aVd(a,b){var s=0,r=A.i(t.Zk),q,p,o,n,m,l,k
 var $async$aVd=A.d(function(c,d){if(c===1)return A.e(d,r)
 for(;;)switch(s){case 0:l=v.G
