@@ -241547,7 +241547,8 @@ m.db=q
 p=n.f
 p===$&&A.b()
 o=!0
-if(r===p.ch)if(s===p.r){if(q===p.db){s=m.f
+if(r===p.ch)if(s===p.r){s=p.db
+if(q===(s==null?"":s)){s=m.f
 r=p.f
 if(s.a===r.a&&s.b===r.b){s=m.w
 r=p.w
@@ -241679,7 +241680,8 @@ s.db=p
 o=m.f
 o===$&&A.b()
 n=!0
-if(q===o.ch)if(r===o.r)if(p===o.db){r=s.f
+if(q===o.ch)if(r===o.r){r=o.db
+if(p===(r==null?"":r)){r=s.f
 q=o.f
 if(r.a===q.a&&r.b===q.b){r=s.w
 q=o.w
@@ -241690,8 +241692,7 @@ s=r!=q.as||s.at!=q.at||s.ax!=q.ax||s.ay!=q.ay}else s=n
 else s=n
 else s=n
 else s=n
-else s=n}else s=n}else s=n
-else s=n
+else s=n}else s=n}else s=n}else s=n
 else s=n
 return s},
 bhP(a){var s=this.a.c
