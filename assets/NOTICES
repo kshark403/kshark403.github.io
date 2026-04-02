@@ -12642,7 +12642,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 --------------------------------------------------------------------------------
 graphs
-stream_transform
 term_glyph
 
 Copyright 2017, the Dart project authors. 
