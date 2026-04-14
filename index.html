@@ -19,21 +19,63 @@
   <meta name="google-signin-client_id" content="371187933871-8aq7bgtfd6mib249u3r3q828t7reuhjf.apps.googleusercontent.com" />
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="Satang personal finance app.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, orientation=any">
 
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="satang332">
+  <meta name="apple-mobile-web-app-title" content="Satang">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>satang332</title>
+  <title>Satang</title>
   <link rel="manifest" href="manifest.json">
+  <style>
+    html,
+    body {
+      margin: 0;
+      background: #ffffff;
+    }
+
+    #app-loading {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 16px;
+      background: #ffffff;
+      z-index: 9999;
+      transition: opacity 220ms ease, visibility 220ms ease;
+    }
+
+    #app-loading.is-hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    #app-loading img {
+      width: min(24vw, 132px);
+      height: auto;
+      border-radius: 24px;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+    }
+
+    #app-loading span {
+      color: #16171a;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+  </style>
   
   <!-- For download file Start-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/amcharts/3.21.15/plugins/export/libs/FileSaver.js/FileSaver.min.js"></script>
@@ -64,6 +106,22 @@
 </script>
 </head>
 <body>
+  <div id="app-loading" aria-hidden="true">
+    <img src="icons/Icon-192.png" alt="Satang logo">
+    <span>Satang</span>
+  </div>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var loading = document.getElementById('app-loading');
+      if (!loading) {
+        return;
+      }
+      loading.classList.add('is-hidden');
+      window.setTimeout(function () {
+        loading.remove();
+      }, 260);
+    });
+  </script>
   <script src="flutter_bootstrap.js" async></script>
   <script src="my_js.js"></script>
 </body>
