@@ -48867,8 +48867,6 @@ e=A.t(a,B.o,e).geD()
 p=g.h(0,"mapLegendsShowTransfer")
 b.pb(e,p==null?!0:p)
 b.sa5M(c.a)
-f.cx.k(0,"Just Notify","Just Notify")
-f.u()
 d.$0()
 return A.i(null,r)}})
 return A.j($async$mb,r)},
