@@ -210142,7 +210142,7 @@ q=p.gc2(0).at
 q.toString
 o=B.e.gda(o).Q
 o.toString
-if(r<120)p.iu(B.r.bl(q-16,0,o))
+if(r<80)p.iu(B.r.bl(q-12,0,o))
 else if(r>s.b-80)p.iu(B.r.bl(q+12,0,o))},
 aD5(a,b){var s=a.fx.length!==0,r=s&&b.n(0,a.f),q=this.bhG(a,s,r,a.f===-1&&a.as===-2)
 return A.a1(A.a([q,A.MW(B.L,r?A.a1(this.bhZ(a,b),B.cX,B.o,B.m,0,B.y):B.bf,B.dP,B.qw)],t.p),B.cX,B.o,B.m,0,B.y)},
