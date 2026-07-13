@@ -189846,7 +189846,7 @@ if(k==null)k=0
 j=A.q(A.n(l),A.u(l)+k+1,1,0,0,0,0,0)
 if(A.q(A.n(b5),A.u(b5),1,0,0,0,0,0).bI(A.q(A.n(j),A.u(j),1,0,0,0,0,0))){b3.ay=b3.ax=0
 s=1
-break}++o}i=o-b1
+break}++o}i=o-b1+1
 h=A.n(l)
 if(i>0){g=b3.ax
 for(f=0;f<i;++f){e=f+b1
@@ -189895,7 +189895,7 @@ j=A.q(A.n(l),A.u(l)+k+1,1,0,0,0,0,0)
 if(A.q(A.n(b5),A.u(b5),1,0,0,0,0,0).bI(A.q(A.n(j),A.u(j),1,0,0,0,0,0))){b3.ay=b3.ax=0
 s=1
 break}++o
-a3=0}i=o-b1
+a3=0}i=o-b1+1
 h=A.n(l)
 if(i>0){g=b3.ax
 a7=A.q(A.n(b5),A.u(b5),1,0,0,0,0,0).cE(A.q(A.n(l),A.u(l),1,0,0,0,0,0))?b3.ax:a2
