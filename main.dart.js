@@ -228455,7 +228455,7 @@ $S:1441}
 A.bi0.prototype={
 $1(a){var s=a.f,r=!1
 if(s!=null)if(s!==-1){s=a.R8
-s=s!=null&&s!==0&&a.ax<0}else s=r
+s=s!=null&&s!==0&&a.ax!==0}else s=r
 else s=r
 return s},
 $S:2}
@@ -262843,15 +262843,16 @@ E(a){if(!this.as)return B.GZ
 return new A.ej(new A.cMf(this),new A.cMg(this,A.l(a,!1,t.u)),null,t.ND)},
 gO9(){var s=this
 return B.h.ah(s.f.a.a).length!==0||B.h.ah(s.r.a.a).length!==0||B.h.ah(s.w.a.a).length!==0||B.h.ah(s.x.a.a).length!==0},
-aF5(a,b){var s,r,q=a.R8,p=q==null,o=p?0:q,n=Math.abs(a.ax),m=a.f!==-1&&!p&&a.k4,l=A.fu(b.b,new A.cM_(m,a))
-if(l!=null)p=l.c.cx.length!==0||l.c.cy
+aF5(a,b){var s,r,q=a.R8,p=q==null,o=p?0:q,n=a.ax,m=Math.abs(n),l=a.f!==-1&&!p&&n>0&&a.k4,k=A.fu(b.b,new A.cM_(l,a))
+if(a.r==="Sell gold")$.ac().a6("debug from here")
+if(k!=null)p=k.c.cx.length!==0||k.c.cy
 else p=!1
-if(p)try{if(l.c.cx.length!==0){s=A.dH(l.c.cx)
+if(p)try{if(k.c.cx.length!==0){s=A.dH(k.c.cx)
 p=Math.abs(a.ax)
-if(m){n=p/o
+if(l){m=p/o
 o=p}else o=p*o
-n=s*n}if(l.c.cy){n/=2
-o/=2}}catch(r){}return new A.aKF(n,o)},
+m=s*m}if(k.c.cy){m/=2
+o/=2}}catch(r){}return new A.aKF(m,o)},
 bC6(b7,b8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5=null,b6=A.a([],t.b)
 for(s=J.aA(b7);s.q();){r=s.gG(s)
 q=this.aF5(r,b8)
