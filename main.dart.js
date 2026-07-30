@@ -262844,7 +262844,6 @@ return new A.ej(new A.cMf(this),new A.cMg(this,A.l(a,!1,t.u)),null,t.ND)},
 gO9(){var s=this
 return B.h.ah(s.f.a.a).length!==0||B.h.ah(s.r.a.a).length!==0||B.h.ah(s.w.a.a).length!==0||B.h.ah(s.x.a.a).length!==0},
 aF5(a,b){var s,r,q=a.R8,p=q==null,o=p?0:q,n=a.ax,m=Math.abs(n),l=a.f!==-1&&!p&&n>0&&a.k4,k=A.fu(b.b,new A.cM_(l,a))
-if(a.r==="Sell gold")$.ac().a6("debug from here")
 if(k!=null)p=k.c.cx.length!==0||k.c.cy
 else p=!1
 if(p)try{if(k.c.cx.length!==0){s=A.dH(k.c.cx)
