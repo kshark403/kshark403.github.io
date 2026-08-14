@@ -190503,11 +190503,15 @@ d.y2=a3.ax
 d.bm=a3.ay
 d.a3=a3.f
 d.CW=d.ch=s
+d.k3=d.k2=d.id=d.go=d.fy=null
+d.ry=!1
+d.to=d.x1=null
 d.bm=d.y2=d.ay=d.ax=h.ax*g
 B.d.F(a8,d)
 n=!1
-if(h.ry)if(h.x1!=null){n=h.to
-n=n!=null&&n!==-1}if(n){e=B.cb.fa(1e7)
+if(h.ry){l=h.x1
+if(l!=null)if(l>=0){n=h.to
+n=n!=null&&n>-1}}if(n){e=B.cb.fa(1e7)
 c=d.aP()
 c.r="Auto Transfer"
 c.x=a0
@@ -190515,9 +190519,6 @@ c.d=e
 c.w=-1
 c.f=h.to
 c.db=B.L
-c.k3=c.k2=c.id=c.go=c.fy=null
-c.ry=!1
-c.to=c.x1=null
 n=h.ax
 l=h.x1
 l.toString
@@ -191385,11 +191386,19 @@ s.toString
 return s},
 $S:23}
 A.bJQ.prototype={
-$1(a){var s=this.a,r=!0
-if(!B.d.n(s.a,a.e))if(!B.d.n(s.a,a.f)){s=a.k3
-s=s!=null&&s>0}else s=r
-else s=r
-return s},
+$1(a){var s,r,q=this.a
+if(!B.d.n(q.a,a.e))if(!B.d.n(q.a,a.f)){s=a.to
+r=!1
+if(s!=null)if(B.d.n(q.a,s)){q=a.k3
+if(q!=null)if(q>0)if(a.ry){q=a.to
+q.toString
+if(q>-1){q=a.x1
+q=q!=null&&q>=0}else q=r}else q=r
+else q=r
+else q=r}else q=r
+else q=r}else q=!0
+else q=!0
+return q},
 $S:2}
 A.bJR.prototype={
 $1(a){return!a.ch.c5(this.a)},
@@ -193421,7 +193430,7 @@ gan9(){return"Contact Number"},
 gang(){return"Important Type"},
 ganh(){return"Original Price"},
 an5(a){return"Bulk Edit ("+a+")"},
-ganC(){return"Transfer required"},
+ganC(){return"Requires money transfer"},
 ganD(){return"Transfer to"},
 ganB(){return"Transfer rate"},
 an7(a){return"Bulk Edit "+a+" Records"},
@@ -194489,7 +194498,7 @@ gan9(){return"\u0e40\u0e1a\u0e2d\u0e23\u0e4c\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d
 gang(){return"\u0e1b\u0e23\u0e30\u0e40\u0e20\u0e17\u0e2a\u0e33\u0e04\u0e31\u0e0d"},
 ganh(){return"\u0e23\u0e32\u0e04\u0e32\u0e40\u0e14\u0e34\u0e21"},
 an5(a){return"\u0e41\u0e01\u0e49\u0e44\u0e02\u0e2b\u0e25\u0e32\u0e22\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23 ("+a+")"},
-ganC(){return"\u0e08\u0e33\u0e40\u0e1b\u0e47\u0e19\u0e15\u0e49\u0e2d\u0e07\u0e42\u0e2d\u0e19\u0e40\u0e07\u0e34\u0e19"},
+ganC(){return"\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e42\u0e2d\u0e19\u0e40\u0e07\u0e34\u0e19"},
 ganD(){return"\u0e42\u0e2d\u0e19\u0e44\u0e1b\u0e22\u0e31\u0e07"},
 ganB(){return"\u0e2d\u0e31\u0e15\u0e23\u0e32\u0e01\u0e32\u0e23\u0e42\u0e2d\u0e19\u0e40\u0e07\u0e34\u0e19"},
 an7(a){return"\u0e41\u0e01\u0e49\u0e44\u0e02 "+a+" \u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e1e\u0e23\u0e49\u0e2d\u0e21\u0e01\u0e31\u0e19"},
