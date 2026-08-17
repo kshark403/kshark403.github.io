@@ -193668,7 +193668,7 @@ gKv(){return"1.95"},
 gauQ(){return"The program will adjust at the default rate of % (per year)"},
 gauP(){return"After that, it will adjust at the new rate of % (per year)"},
 gasD(){return"Then there will be a grace period (months), [0 = none]"},
-gasM(){return"0-36 only"},
+gasM(){return"Must be >= 0"},
 gaqN(){return"The default rate is effective until (months-years)"},
 gar4(){return"Bank Interest Rates"},
 gTo(){return"Interest Rate"},
@@ -194736,7 +194736,7 @@ gKv(){return"1.95"},
 gauQ(){return"\u0e42\u0e1b\u0e23\u0e41\u0e01\u0e23\u0e21\u0e08\u0e30\u0e1b\u0e23\u0e31\u0e1a\u0e14\u0e49\u0e27\u0e22\u0e2d\u0e31\u0e15\u0e23\u0e32\u0e40\u0e23\u0e34\u0e48\u0e21\u0e15\u0e49\u0e19 % (\u0e15\u0e48\u0e2d\u0e1b\u0e35)"},
 gauP(){return"\u0e2b\u0e25\u0e31\u0e07\u0e08\u0e32\u0e01\u0e19\u0e31\u0e49\u0e19\u0e08\u0e30\u0e1b\u0e23\u0e31\u0e1a\u0e43\u0e2b\u0e21\u0e48\u0e43\u0e19\u0e2d\u0e31\u0e15\u0e23\u0e32 % (\u0e15\u0e48\u0e2d\u0e1b\u0e35)"},
 gasD(){return"\u0e08\u0e32\u0e01\u0e19\u0e31\u0e49\u0e19\u0e08\u0e30\u0e21\u0e35\u0e23\u0e30\u0e22\u0e30\u0e40\u0e27\u0e25\u0e32\u0e1b\u0e25\u0e2d\u0e14\u0e0a\u0e33\u0e23\u0e30 (\u0e40\u0e14\u0e37\u0e2d\u0e19), [0 = \u0e44\u0e21\u0e48\u0e21\u0e35]"},
-gasM(){return"0-36 \u0e40\u0e17\u0e48\u0e32\u0e19\u0e31\u0e49\u0e19"},
+gasM(){return"\u0e15\u0e49\u0e2d\u0e07 >= 0 \u0e40\u0e17\u0e48\u0e32\u0e19\u0e31\u0e49\u0e19"},
 gaqN(){return"\u0e2d\u0e31\u0e15\u0e23\u0e32\u0e40\u0e23\u0e34\u0e48\u0e21\u0e15\u0e49\u0e19\u0e21\u0e35\u0e1c\u0e25\u0e16\u0e36\u0e07 (\u0e40\u0e14\u0e37\u0e2d\u0e19-\u0e1b\u0e35)"},
 gar4(){return"\u0e2d\u0e31\u0e15\u0e23\u0e32\u0e14\u0e2d\u0e01\u0e40\u0e1a\u0e35\u0e49\u0e22\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23"},
 gTo(){return"\u0e2d\u0e31\u0e15\u0e23\u0e32\u0e14\u0e2d\u0e01\u0e40\u0e1a\u0e35\u0e49\u0e22"},
@@ -195804,7 +195804,7 @@ gKv(){return"1.95"},
 gauQ(){return"\u8be5\u8ba1\u5212\u5c06\u6309\u9ed8\u8ba4\u5229\u7387 %\uff08\u6bcf\u5e74\uff09\u8fdb\u884c\u8c03\u6574"},
 gauP(){return"\u6b64\u540e\uff0c\u5c06\u6309\u65b0\u7684\u5229\u7387 %\uff08\u6bcf\u5e74\uff09\u8fdb\u884c\u8c03\u6574"},
 gasD(){return"\u4e4b\u540e\u5c06\u6709\u4e00\u4e2a\u5bbd\u9650\u671f\uff08\u6708\uff09\uff0c[0 = \u65e0]"},
-gasM(){return"\u4ec5\u9650 0-36"},
+gasM(){return"\u5fc5\u987b\u5927\u4e8e\u7b49\u4e8e 0"},
 gaqN(){return"\u9ed8\u8ba4\u5229\u7387\u6709\u6548\u671f\u81f3\uff08\u6708-\u5e74\uff09"},
 gar4(){return"\u9280\u884c\u5229\u7387"},
 gTo(){return"\u5229\u7387"},
@@ -249438,7 +249438,7 @@ r===$&&A.b()
 r=r.a.a
 if(r.length===0)return!1
 s=A.ce(r,null)
-if(s!=null){if(s<0||s>36)return!1
+if(s!=null){if(s<0)return!1
 return!0}return!0},
 $S:49}
 A.c1t.prototype={
