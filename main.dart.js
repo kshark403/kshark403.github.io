@@ -195808,28 +195808,28 @@ case 2:return A.h(o.at(-1),r)}})
 return A.j($async$MZ,r)},
 hl(a){return B.f.a7(A.Rx(2,"th_TH","").P(a))+" \u0e1a\u0e32\u0e17"},
 Nl(a){return this.baJ(a)},
-baJ(b4){var s=0,r=A.k(t.Ys),q,p=2,o=[],n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3
-var $async$Nl=A.f(function(b6,b7){if(b6===1){o.push(b7)
-s=p}for(;;)switch(s){case 0:b0=A.a([],t.b)
-b1=b0
+baJ(b5){var s=0,r=A.k(t.Ys),q,p=2,o=[],n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4
+var $async$Nl=A.f(function(b7,b8){if(b7===1){o.push(b8)
+s=p}for(;;)switch(s){case 0:b1=A.a([],t.b)
+b2=b1
 try{l=$.xE()
 if(l.b.af(0,A.nh(B.qQ).toLowerCase())){l=t.vb.a(l.tP(A.nh(B.qQ),!1,t.F))
 if(!l.r)A.ao(A.eb("Box has already been closed."))
 l=l.e
 l===$&&A.b()
 l=l.i6()
-b0=A.m(l,A.P(l).i("v.E"))
-b1=b0}}catch(b5){}j=A.a([],t.m)
+b1=A.m(l,A.P(l).i("v.E"))
+b2=b1}}catch(b6){}j=A.a([],t.m)
 n=j
 p=4
 s=7
 return A.c(A.kc().nw(),$async$Nl)
-case 7:n=b7
+case 7:n=b8
 p=2
 s=6
 break
 case 4:p=3
-b2=o.pop()
+b3=o.pop()
 s=6
 break
 case 3:s=2
@@ -195839,12 +195839,12 @@ m=i
 p=9
 s=12
 return A.c(A.kc().xq(),$async$Nl)
-case 12:m=b7
+case 12:m=b8
 p=2
 s=11
 break
 case 9:p=8
-b3=o.pop()
+b4=o.pop()
 s=11
 break
 case 8:s=2
@@ -195857,53 +195857,55 @@ d=e.f
 if(d!=null)g.j(0,d,e.e)}c=A.C(l,t._)
 for(l=J.aD(n);l.q();){f=l.gI(l)
 e=f.r
-if(e!=null)c.j(0,e,f)}l=A.bN("[?.,!\u0e25\u0e48\u0e32\u0e2a\u0e38\u0e14\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e44\u0e23\u0e01\u0e35\u0e48\u0e1a\u0e32\u0e17\u0e40\u0e17\u0e48\u0e32\u0e44\u0e2b\u0e23\u0e48\u0e21\u0e35\u0e44\u0e2b\u0e21\u0e40\u0e04\u0e22\u0e44\u0e2b\u0e21\u0e0a\u0e48\u0e27\u0e22\u0e40\u0e0a\u0e47\u0e04\u0e14\u0e39\u0e43\u0e2b\u0e49\u0e2b\u0e19\u0e48\u0e2d\u0e22\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e17\u0e35\u0e48\u0e44\u0e1b\u0e01\u0e34\u0e19\u0e0b\u0e37\u0e49\u0e2d]",!0,!1,!1)
-b=B.f.a7(A.bc(b4.toLowerCase(),l," "))
+if(e!=null)c.j(0,e,f)}l=A.bN("[?.,!\u0e3f]",!0,!1,!1)
+b=A.bc(b5.toLowerCase(),l," ")
+a=A.bN("(\u0e25\u0e48\u0e32\u0e2a\u0e38\u0e14\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e44\u0e23|\u0e01\u0e35\u0e48\u0e1a\u0e32\u0e17|\u0e40\u0e17\u0e48\u0e32\u0e44\u0e2b\u0e23\u0e48|\u0e21\u0e35\u0e44\u0e2b\u0e21|\u0e40\u0e04\u0e22\u0e44\u0e2b\u0e21|\u0e0a\u0e48\u0e27\u0e22\u0e40\u0e0a\u0e47\u0e04\u0e14\u0e39\u0e43\u0e2b\u0e49\u0e2b\u0e19\u0e48\u0e2d\u0e22|\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e17\u0e35\u0e48|\u0e44\u0e1b\u0e01\u0e34\u0e19|\u0e0b\u0e37\u0e49\u0e2d)",!1,!1,!1)
+b=B.f.a7(A.bc(b,a," "))
 l=B.f.xJ(b,A.bN("\\s+",!0,!1,!1))
 f=A.A(l).i("N<1>")
-a=A.m(new A.N(l,new A.bsa(),f),f.i("v.E"))
-l=A.eF(a,h)
+a0=A.m(new A.N(l,new A.bsa(),f),f.i("v.E"))
+l=A.eF(a0,h)
 h=b.length
 if(h!==0&&h>=2)l.E(0,b)
-a0=A.m(l,A.P(l).c)
-if(a0.length===0){q=A.a([],t.Mu)
+a1=A.m(l,A.P(l).c)
+if(a1.length===0){q=A.a([],t.Mu)
 s=1
-break}a1=A.a([],t.Mu)
-l=b1
+break}a2=A.a([],t.Mu)
+l=b2
 h=A.A(l).i("N<1>")
-a2=A.m(new A.N(l,new A.bsb(),h),h.i("v.E"))
-B.d.ar(a2,new A.bsc())
-for(l=a2.length,a3=0;a3<a2.length;a2.length===l||(0,A.L)(a2),++a3){a4=a2[a3]
-h=a4.r
-f=a4.x
+a3=A.m(new A.N(l,new A.bsb(),h),h.i("v.E"))
+B.d.ar(a3,new A.bsc())
+for(l=a3.length,a4=0;a4<a3.length;a3.length===l||(0,A.L)(a3),++a4){a5=a3[a4]
+h=a5.r
+f=a5.x
 if(f==null)f=""
-e=a4.p2
+e=a5.p2
 if(e==null)e=""
-d=g.h(0,a4.w)
+d=g.h(0,a5.w)
 if(d==null)d=""
-a5=c.h(0,a4.e)
-a5=a5==null?null:a5.x
-if(a5==null)a5=""
-if(B.d.bh(a0,new A.bsd(h.toLowerCase()+" "+f.toLowerCase()+" "+e.toLowerCase()+" "+d.toLowerCase()+" "+a5.toLowerCase()))){a6=a4.r
-if(!(a6.length!==0)){h=a4.x
+a6=c.h(0,a5.e)
+a6=a6==null?null:a6.x
+if(a6==null)a6=""
+if(B.d.bh(a1,new A.bsd(h.toLowerCase()+" "+f.toLowerCase()+" "+e.toLowerCase()+" "+d.toLowerCase()+" "+a6.toLowerCase()))){a7=a5.r
+if(!(a7.length!==0)){h=a5.x
 if((h==null?null:h.length!==0)===!0){h.toString
-a6=h}else{h=g.h(0,a4.w)
+a7=h}else{h=g.h(0,a5.w)
 if(h==null)h="\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23"
-a6=h}}h=a4.ax
-f=g.h(0,a4.w)
+a7=h}}h=a5.ax
+f=g.h(0,a5.w)
 if(f==null)f="\u0e17\u0e31\u0e48\u0e27\u0e44\u0e1b"
-e=c.h(0,a4.e)
+e=c.h(0,a5.e)
 e=e==null?null:e.x
 if(e==null)e="\u0e1a\u0e31\u0e0d\u0e0a\u0e35"
-d=a4.ch
-a5=a4.db
-a7=a4.x
-if(a7==null)a7=""
-a8=a4.cy
-a9=a4.p2
-if(a9==null)a9=""
-a1.push(new A.G5(a6,Math.abs(h),f,e,d,a5===B.ab,a7,a8,a9))
-if(a1.length>=15)break}}q=a1
+d=a5.ch
+a6=a5.db
+a8=a5.x
+if(a8==null)a8=""
+a9=a5.cy
+b0=a5.p2
+if(b0==null)b0=""
+a2.push(new A.G5(a7,Math.abs(h),f,e,d,a6===B.ab,a8,a9,b0))
+if(a2.length>=15)break}}q=a2
 s=1
 break
 case 1:return A.i(q,r)
