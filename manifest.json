@@ -2,7 +2,7 @@
     "name": "Satang",
     "short_name": "Satang",
     "start_url": ".",
-    "display": "standalone",
+    "display": "minimal-ui",
     "background_color": "#FFFFFF",
     "theme_color": "#FFFFFF",
     "description": "Satang personal finance app.",
