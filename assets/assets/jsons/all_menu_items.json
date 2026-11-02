@@ -1042,5 +1042,65 @@
     "hintTitle": "lbl_settings_theme_visual",
     "hintDetail": "lbl_settings_theme_visual_detail",
     "levelPermission": 1
+  },
+  {
+    "menuId": 89,
+    "menuParentId": 8,
+    "key": "tab_overall_graph",
+    "title": "lbl_overall_tab_overall_graph",
+    "icon": 58838,
+    "position": 89,
+    "index": -1,
+    "hintTitle": "lbl_overall_tab_overall_graph",
+    "hintDetail": "lbl_overall_overall_graph_desc",
+    "levelPermission": 1
+  },
+  {
+    "menuId": 90,
+    "menuParentId": 8,
+    "key": "tab_overall_top_widget",
+    "title": "lbl_overall_tab_top_widget",
+    "icon": 58838,
+    "position": 90,
+    "index": -1,
+    "hintTitle": "lbl_overall_tab_top_widget",
+    "hintDetail": "lbl_overall_top_widget_desc",
+    "levelPermission": 1
+  },
+  {
+    "menuId": 91,
+    "menuParentId": 8,
+    "key": "tab_overall_list",
+    "title": "lbl_overall_tab_overall_list",
+    "icon": 58838,
+    "position": 91,
+    "index": -1,
+    "hintTitle": "lbl_overall_tab_overall_list",
+    "hintDetail": "lbl_overall_overall_list_desc",
+    "levelPermission": 1
+  },
+  {
+    "menuId": 92,
+    "menuParentId": 8,
+    "key": "tab_overall_transaction_graph",
+    "title": "lbl_overall_tab_transaction_graph",
+    "icon": 58838,
+    "position": 92,
+    "index": -1,
+    "hintTitle": "lbl_overall_tab_transaction_graph",
+    "hintDetail": "lbl_overall_transaction_graph_desc",
+    "levelPermission": 1
+  },
+  {
+    "menuId": 93,
+    "menuParentId": 8,
+    "key": "tab_overall_transaction_list",
+    "title": "lbl_overall_tab_transaction_list",
+    "icon": 58838,
+    "position": 93,
+    "index": -1,
+    "hintTitle": "lbl_overall_tab_transaction_list",
+    "hintDetail": "lbl_overall_transaction_list_desc",
+    "levelPermission": 1
   }
 ]
