@@ -1,5 +1,77 @@
 [
   {
+    "menuId": 94,
+    "menuParentId": 0,
+    "key": "menu_calendar",
+    "title": "menu_calendar",
+    "icon": 57548,
+    "position": 0,
+    "index": -1,
+    "hintTitle": "menu_calendar",
+    "hintDetail": "menu_calendar",
+    "levelPermission": 0
+  },
+  {
+    "menuId": 95,
+    "menuParentId": 94,
+    "key": "calendar",
+    "title": "menu_calendar",
+    "icon": 57548,
+    "position": 1,
+    "index": -1,
+    "hintTitle": "menu_calendar",
+    "hintDetail": "menu_calendar",
+    "levelPermission": 0
+  },
+  {
+    "menuId": 96,
+    "menuParentId": 94,
+    "key": "tab_calendar_day",
+    "title": "tab_calendar_day",
+    "icon": 57549,
+    "position": 2,
+    "index": -1,
+    "hintTitle": "tab_calendar_day",
+    "hintDetail": "tab_calendar_day",
+    "levelPermission": 0
+  },
+  {
+    "menuId": 97,
+    "menuParentId": 94,
+    "key": "tab_calendar_week",
+    "title": "tab_calendar_week",
+    "icon": 57550,
+    "position": 3,
+    "index": -1,
+    "hintTitle": "tab_calendar_week",
+    "hintDetail": "tab_calendar_week",
+    "levelPermission": 0
+  },
+  {
+    "menuId": 98,
+    "menuParentId": 94,
+    "key": "tab_calendar_month",
+    "title": "tab_calendar_month",
+    "icon": 57548,
+    "position": 4,
+    "index": -1,
+    "hintTitle": "tab_calendar_month",
+    "hintDetail": "tab_calendar_month",
+    "levelPermission": 0
+  },
+  {
+    "menuId": 99,
+    "menuParentId": 94,
+    "key": "tab_calendar_year",
+    "title": "tab_calendar_year",
+    "icon": 57551,
+    "position": 5,
+    "index": -1,
+    "hintTitle": "tab_calendar_year",
+    "hintDetail": "tab_calendar_year",
+    "levelPermission": 0
+  },
+  {
     "menuId": 1,
     "menuParentId": 0,
     "key": "menu_report",
