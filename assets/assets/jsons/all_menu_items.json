@@ -132,6 +132,18 @@
     "levelPermission": 1
   },
   {
+    "menuId": 37,
+    "menuParentId": 36,
+    "key": "document_reader",
+    "title": "Document Reader",
+    "icon": 58748,
+    "position": 59,
+    "index": -1,
+    "hintTitle": "Document Reader",
+    "hintDetail": "Read documents with text-to-speech",
+    "levelPermission": 1
+  },
+  {
     "menuId": 19,
     "menuParentId": 0,
     "key": "menu_admin",
